@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.app {
+background-image:url('./Assests/daytime.jpg');
+background-size: cover;
+background-position: bottom;
+}
+.app.night
+{
+    background-image:url('./Assests/nighttime.jpg')
+}
+main
+{
+min-height:100vh;
+background-image: linear-gradient(to bottom,rgba(0,0,0,0.2),rgba(0,0,0,0.75));
+padding:25px;
+}
+.search-box
+{
+width:50%;
+position: absolute;
+top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+}
+.search-box .search-bar
+{
+
+display:block;
+width: 100%;
+padding:15px;
+background-color:rgba(255,255,255,0);
+border-radius: 16px 16px 16px 16px;
+appearance: none;
+background:none;
+outline:none;
+background-color: rgba(255,255,255,0.2);
+border-radius:0 0 16px 16px;
+box-shadow:0 5px rgba(0,0,0,0.2);
+font-size: 20px;
+
+}
+.search-box .search-bar:focus
+{
+background-color:rgba(255,255,255,0.75);
+}
+.location-box .location{
+text-align: center;
+color: #FFF;
+font-weight: 500;
+font-size: 50px;
+margin-top: 40px;
+padding-top: 20px;
+}
+.location-box .date
+{
+text-align: center;
+color: #FFF;
+font-weight: 500;
+font-size:52px;
+margin-top: 30px;
+padding-top: 20px;
+}
+.weather-box
+{
+    text-align:center;
+}
+.weather-box .temp
+{
+    position:relative;
+    display:inline-block;
+    margin:30px auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 102px;
+    color:#FFF;
+    padding: 15px 25px;
+    border-radius:16px;
+    font-weight: 600;
+    text-shadow: 3px 6px rgba(50,50,70,0.5);
+    box-shadow: 3px 6px rgba(50,50,70,0.2);
+
+}
+.weather-box .weather
+{
+color:#FFF;
+text-align:center;
+font-size:48px;
+font-weight: 700;
+}
+.weather-box .icon
+{
+align-content: center;
+width: 400px;
+position:relative;
+display:inline-block;
+margin-left: 350px;
+}
