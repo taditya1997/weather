@@ -3,8 +3,8 @@ import React,{ useState } from "react";
 
 const api=
 {
-  base: "http://api.weatherapi.com/v1/",
-  key: "1d8271b7088c4d04ac084746212803"
+  base:"https://api.weatherapi.com/v1/",
+  key:"5221d055d0534afb9d6125939212903"
 }
 function App() 
 { 
@@ -51,7 +51,7 @@ function App()
       <div className="date">{datebuilder(new Date())}</div>
       </div>
       <div className="weather-box">
-      <div className="temp">{Math.round(weather.current.temp_c)+"°"+'c'}</div>
+      <div className="temp">{Math.round(weather.current.temp_c)+`°c`}</div>
       <div className="weather">{weather.current.condition.text}
       </div>
       <div className="icon" style={{backgroundImage:`url(${weather.current.condition.icon})`,height: "300px", backgroundRepeat: "no-repeat",position:'relative'}}></div>
