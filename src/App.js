@@ -4,7 +4,7 @@ import React,{ useState } from "react";
 const api=
 {
   base: "http://api.weatherapi.com/v1/",
-  key: "1d8271b7088c4d04ac084746212803"
+  key: "5221d055d0534afb9d6125939212903"
 }
 function App() 
 { 
