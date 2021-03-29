@@ -3,8 +3,13 @@ import React,{ useState } from "react";
 
 const api=
 {
+<<<<<<< HEAD
   base:"https://api.weatherapi.com/v1/",
   key:"5221d055d0534afb9d6125939212903"
+=======
+  base: "https://api.weatherapi.com/v1/",
+  key: "5221d055d0534afb9d6125939212903"
+>>>>>>> 2f8ff3abc2330ba19e3651f58aabfc0f206500c2
 }
 function App() 
 { 
